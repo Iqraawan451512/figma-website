@@ -27,7 +27,7 @@ return(
                     <p className="text-[4rem]  hover:text-sky-200">........ </p>
 
                 </div> 
-                <div className="">
+                <div className="v">
                
                 <img src="https://www.apple.com/v/watch/bo/images/overview/select/product_se__frx4hb13romm_large_2x.png" alt="its a watch image"   className="h-52   pr-5 ml-[45rem] mt-1"/>
              </div>
