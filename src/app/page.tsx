@@ -1,6 +1,5 @@
 
 import Link from "next/link" 
-import { FaApple } from "react-icons/fa";
 import Slider from "./slider/slider";
 function Home(){
 return(
