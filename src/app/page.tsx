@@ -4,9 +4,7 @@ import { FaApple } from "react-icons/fa";
 import Slider from "./slider/slider";
 function Home(){
 return(
-   
-
-  <main className="main-div " id="#hero">
+   <main className="main-div " id="#hero">
     <Slider/>
 <div className="main flex  flex-col lg:flex-row justify-between items-center py-8 lg:py-16 px-4 lg:px-16   relative " id="#target-section ">
 <h1 className="  cont  lg:text-2xl font-bold text-neutral-900 ml-8  w-full mr-16 h-16 pt-5  lg:text-left "> Grab the best deals on <span className="phone text-gray-400">SmartPhones </span></h1>
@@ -20,6 +18,7 @@ return(
 <div className="main-1 flex  mt-10  ml-24  flex-col lg:flex-row gap-8 lg:gap-10 justify-center lg:justify-start" >
 <div className="card     relative        w-full sm:w-60 md:w-80 lg:w-40 h-auto bg-white rounded-lg shadow-md overflow-hidden ">
   <div className= " card-1 bg-slate-300 h-30 w-full">
+
     <p className="discount pt-1">5% <br/>Off</p>
     <img src="https://images.samsung.com/is/image/samsung/p6pim/pk/sm-a556ezkwpkd/gallery/pk-galaxy-a55-5g-sm-a556-sm-a556ezkwpkd-thumb-541456407?$344_344_PNG$" alt="its a picture" className="picture"/>
   </div>

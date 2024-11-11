@@ -4,10 +4,12 @@ import { RiAccountCircleFill } from "react-icons/ri";
 import { BsSearch } from "react-icons/bs";
 import { AiFillProfile } from "react-icons/ai";
 import { BsCartFill } from "react-icons/bs";
+import Button from "../component/button";
+import Btn from "../component/button-2";
 
 function Header_main() {
   return (
-    <main className="bg-white w-full border-b border-gray-200">
+    <main className="bg-white w-full border-b border-gray-200"> 
       <nav className="flex justify-between items-center p-3 lg:px-6">
         {/* Logo and Hamburger Menu */}
         <div className="flex items-center gap-2 font-extrabold text-xl text-blue-950">
@@ -35,8 +37,11 @@ function Header_main() {
           {/* Sign Up / Sign In */}
           <div className="flex items-center gap-2">
             <RiAccountCircleFill className="text-gray-600  hover:text-[#f6aa1c]  cursor-wait  font-bold " />
-            <span className="text-sm text-black hidden lg:block hover:text-[#f6aa1c] cursor-grabbing font-bold font-serif">Sign up / </span>
-            <span className="text-sm text-black hidden lg:block hover:text-[#f6aa1c]  cursor-help font-bold font-serif"> Sign in</span>
+            <span className="text-sm text-black hidden lg:block hover:text-[#f6aa1c] cursor-grabbing font-bold font-serif"> 
+            <Button text="Sign UP/"/></span>
+            
+            <span className="text-sm text-black hidden lg:block hover:text-[#f6aa1c]  cursor-help font-bold font-serif">
+              <Btn text="Sign In"/> </span>
 
           </div>
 
